@@ -1,0 +1,23 @@
+package com.prodapt.basic;
+
+public class EmployeeRecords {
+	void empId(int idNo) {
+		System.out.println("Employee Id is "+ idNo);
+	}
+	void name(String empName) {
+		System.out.println("Employee Name is "+ empName);
+	}
+	void mobileNo(int mobileNo) {
+		System.out.println("Empyolee Mobile number is "+ mobileNo);	
+	}
+	void mailId(String email) {
+		System.out.println("Empyolee email id is "+ email);	
+	}
+	public static void main(String[]args) {
+		EmployeeRecords	em =new EmployeeRecords(); 
+		em.empId(52);
+		em.name("Sachin");
+		em.mobileNo(5557765);
+		em.mailId("sachin@gmail.com");
+	}
+}
